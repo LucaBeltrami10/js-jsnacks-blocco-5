@@ -50,3 +50,7 @@ const cars = [
         fuel : 'Benzina'
     },
 ]
+
+const benzinaCars = cars.filter(() => cars.fuel == 'Benzina')
+
+console.log(benzinaCars)
