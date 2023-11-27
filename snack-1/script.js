@@ -60,6 +60,10 @@ const benzinaCars = cars.filter((cars) => {
     return false
 })
 console.log(benzinaCars)
+let(for fuel, in cars){
+    console.log(fuel, benzinaCars['fuel'] )
+}
+
 
 const dieselCars = cars.filter((cars) => {
     if(cars.fuel == 'Diesel'){
