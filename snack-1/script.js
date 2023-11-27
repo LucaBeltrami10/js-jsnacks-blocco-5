@@ -60,9 +60,9 @@ const benzinaCars = cars.filter((cars) => {
     return false
 })
 console.log(benzinaCars)
-let (for 'fuel' in benzinaCarscars){
-    console.log(fuel, benzinaCars['fuel'] )
-}
+benzinaCars.forEach((item) =>{
+    console.log(item.model, item.fuel)
+})
 
 
 const dieselCars = cars.filter((cars) => {
@@ -72,6 +72,9 @@ const dieselCars = cars.filter((cars) => {
     return false
 })
 console.log(dieselCars)
+dieselCars.forEach((item) =>{
+    console.log(item.model, item.fuel)
+})
 
 
 const gplElettricCars = cars.filter((cars) => {
@@ -81,4 +84,7 @@ const gplElettricCars = cars.filter((cars) => {
     return false
 })
 console.log(gplElettricCars)
+gplElettricCars.forEach((item) =>{
+    console.log(item.model, item.fuel)
+})
 
