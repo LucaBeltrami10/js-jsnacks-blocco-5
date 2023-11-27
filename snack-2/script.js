@@ -33,7 +33,7 @@ const persone = [
 
 const chiGuida = persone.map((individuo) => {
     if( individuo.età >= 18){
-        return `${individuo.nome} ha ${individuo.età} anni. ${individuo.nome} ${individuo.cognome} può guidare`
+        return `${individuo.nome} ha ${individuo.età} anni. ${individuo.nome} ${individuo.cognome} PUO' guidare`
     }
     return `${individuo.nome} ha ${individuo.età} anni. ${individuo.nome} ${individuo.cognome} NON può guidare`
 })
