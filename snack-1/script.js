@@ -51,13 +51,21 @@ const cars = [
     }
 ]
 
+console.log(cars)
+
 const benzinaCars = cars.filter((cars) => {
     if(cars.fuel == 'Benzina'){
         return true
     }
     return false
 })
-
-console.log(cars)
-
 console.log(benzinaCars)
+
+const dieselCars = cars.filter((cars) => {
+    if(cars.fuel == 'Diesel'){
+        return true
+    }
+    return false
+})
+console.log(dieselCars)
+
