@@ -48,9 +48,16 @@ const cars = [
         brand : 'Fiat',
         model : 'Doblò',
         fuel : 'Benzina'
-    },
+    }
 ]
 
-const benzinaCars = cars.filter(() => cars.fuel == 'Benzina')
+const benzinaCars = cars.filter((cars) => {
+    if(cars.fuel == 'Benzina'){
+        return true
+    }
+    return false
+})
+
+console.log(cars)
 
 console.log(benzinaCars)
