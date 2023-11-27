@@ -69,3 +69,12 @@ const dieselCars = cars.filter((cars) => {
 })
 console.log(dieselCars)
 
+
+const gplElettricCars = cars.filter((cars) => {
+    if(cars.fuel !== 'Diesel' && cars.fuel !== 'Benzina'){
+        return true
+    }
+    return false
+})
+console.log(gplElettricCars)
+
