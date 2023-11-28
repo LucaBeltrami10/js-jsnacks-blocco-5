@@ -7,6 +7,6 @@ const fusione = [];
 lettere.forEach((item, index) => {
     fusione.push(item)
     fusione.push(numeri[index])
-})
+});
 
-console.log(fusione)
+console.log(fusione);
