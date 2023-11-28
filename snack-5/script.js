@@ -14,7 +14,7 @@ const squadre = [
 ]
 
 
-squadre.forEach((squadra, index) => {
+squadre.forEach((squadra) => {
     squadra.punteggio = parseInt(Math.random() * 100) + 1
     squadra.falli = parseInt(Math.random() * 10) + 1
     console.log(squadra)
