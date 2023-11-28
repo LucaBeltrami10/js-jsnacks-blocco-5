@@ -1,6 +1,8 @@
 const squadre = [
     {
         nome : 'bolognese',
+        punteggio : 18,
+        falli : 13
     },
     {
         nome : 'milan',
