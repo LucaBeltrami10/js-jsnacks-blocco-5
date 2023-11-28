@@ -7,3 +7,7 @@ const social = ['facebook', 'youtube', 'intagram', 'tiktok', 'x']
 
 const {tab} = broswer
 console.log(tab)
+
+tab.forEach((finestra, index) => {
+    
+})
