@@ -4,3 +4,6 @@ const broswer = {
 }
 
 const social = ['facebook', 'youtube', 'intagram', 'tiktok', 'x']
+
+const {tab} = broswer
+console.log(tab)
